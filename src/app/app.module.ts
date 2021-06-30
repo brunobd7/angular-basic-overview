@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
+import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent //DECLARANDO AO ANGULAR QUE O COMPONENTE ESTA DISPONIVEL
+    HelloComponent,
+    BemVindoComponent //DECLARANDO AO ANGULAR QUE O COMPONENTE ESTA DISPONIVEL
   ],
   imports: [
     BrowserModule
